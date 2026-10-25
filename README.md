@@ -27,7 +27,7 @@ Por defecto usa validación nativa + JS accesible y abre `mailto:`. Para enviar 
 
 ## Notas
 
-- Imágenes: avatar y mockups de proyectos son SVG ilustrativos generados en `build.mjs`. Sustitúyelos por fotos reales (AVIF/WebP + `srcset`) cuando existan.
+- Imágenes: el avatar se copia desde `src/img/images.jpg`; los mockups de proyectos son SVG ilustrativos generados en `build.mjs`.
 - Fuentes: Fraunces e Inter variables, autoalojadas en `src/fonts` (subset latin, de `@fontsource-variable`, licencia OFL).
 - Caché recomendada: `assets/*` con hash → `Cache-Control: public, max-age=31536000, immutable`; HTML → `no-cache`.
 - Estructura: `templates/` (plantillas con escape HTML por defecto), `src/css`, `src/js`, `scripts/`.

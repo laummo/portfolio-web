@@ -12,10 +12,10 @@
     "givenName": "Laura",
     "familyName": "Moreno",
     "role": "Estudiante de Ingeniería Informática",
-    "tagline": "Construyo productos web rápidos, accesibles y mantenibles — del modelo de datos al último píxel.",
+    "tagline": "miamiaumiaumiaumiaumiau",
     "location": { "city": "Barcelona", "country": "ES", "mode": "Remoto o híbrido" },
-    "avatar": { "alt": "Ilustración de retrato de Laura Moreno con las iniciales LM", "width": 800, "height": 1000 },
-    "cv": "assets/cv-laura-martin-es.pdf",
+    "avatar": { "alt": "Fotografía de un gato con la lengua fuera", "width": 452, "height": 600 },
+    "cv": "assets/cv-laura-moreno-es.pdf",
     "contact": {
       "email": "moval.laura@gmail.com",
       "linkedin": "https://www.linkedin.com/in/laura-mova",
@@ -34,9 +34,9 @@
     {
       "id": "occident", "company": "Occident", "url": "https://occident.com",
       "role": "Becaria de desarrollo y análisis de aplicaciones", "location": "Barcelona",
-      "start": "2026-10", "end": "Actualidad",
+      "start": "2026-10", "end": "2027-02",
       "achievements": [
-        "Soporte de proyectos dentro de un entorno Agile (Scrum) durante todo el ciclo de desarrollo de software, incluyendo reunión de requisitos, analisis, diseño, desarrollo y integración. ",
+        "Soporte de proyectos dentro de un entorno Agile (Scrum) durante todo el ciclo de desarrollo de software, incluyendo reunión de requisitos, analisis, diseño, desarrollo y integración.",
         "Colaboro con equipos multifuncionales y herramientas de gestion de proyectos para desarrollar aplicaciones de calidad."
       ],
       "tech": ["React", "Microsoft .NET", "COBOL", "SQL", "C#", "Git"]
@@ -47,7 +47,7 @@
       "start": "2025-09", "end": "2026-07",
       "achievements": [
         "Durante mi tiempo como becaria en la facultad, di servicio de soporte IT a los laboratorios.",
-        "Gestión de redes y servidores. "
+        "Gestión de redes y servidores."
       ],
       "tech": ["Vim", "C", "Docker", "CI/CD", "Bash"]
     },

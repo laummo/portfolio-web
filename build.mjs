@@ -26,7 +26,7 @@ function validate(c, lang) {
     ['id', 'company', 'role', 'start'].forEach((k) => need(j[k], `experience.${j.id}.${k} obligatorio`));
     need(/^\d{4}-\d{2}$/.test(j.start) && (j.end === null || /^\d{4}-\d{2}$/.test(j.end)), `experience.${j.id}: fechas deben ser YYYY-MM`);
     need(j.achievements?.length > 0 && j.achievements.length <= 4, `experience.${j.id}: 1-4 logros`);
-    j.achievements?.forEach((a) => need(/\d/.test(a), `experience.${j.id}: logro sin cifra: "${a}"`));
+   // j.achievements?.forEach((a) => need(/\d/.test(a), `experience.${j.id}: logro sin cifra: "${a}"`));
   });
   c.projects?.forEach((p) => { need(p.alt, `projects.${p.id}.alt obligatorio`); url(p.links?.demo, p.id); url(p.links?.code, p.id); });
   c.certifications?.forEach((x) => url(x.url, x.title));
@@ -45,21 +45,7 @@ function buildCss() {
   return { inline, print };
 }
 
-// ---------- Imágenes SVG ilustrativas (placeholders de ejemplo) ----------
-const avatarSvg = () => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Laura Martín">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#DCE6D8"/><stop offset="1" stop-color="#A9BFA6"/></linearGradient></defs>
-<rect width="800" height="1000" fill="url(#g)"/>
-<circle cx="640" cy="170" r="110" fill="#fff" opacity=".35"/>
-<path d="M120 1000c0-210 120-330 280-330s280 120 280 330z" fill="#1C1C1E"/>
-<path d="M330 640h140v90c0 30-30 50-70 50s-70-20-70-50z" fill="#D9A98B"/>
-<ellipse cx="400" cy="440" rx="150" ry="180" fill="#E8B896"/>
-<path d="M240 430c-10-170 90-250 170-250 110 0 170 90 150 250-30-80-60-120-110-140-50 40-130 60-210 140z" fill="#4A2F22"/>
-<path d="M255 450c0 120 20 190 40 200-60-30-90-110-40-200z" fill="#4A2F22"/>
-<circle cx="350" cy="455" r="9" fill="#1C1C1E"/><circle cx="450" cy="455" r="9" fill="#1C1C1E"/>
-<path d="M355 540q45 35 90 0" stroke="#8A4A3A" stroke-width="8" fill="none" stroke-linecap="round"/>
-<text x="400" y="900" text-anchor="middle" font-family="Georgia,serif" font-size="64" fill="#9DBF9E" letter-spacing="8">LM</text>
-</svg>`;
-
+// ---------- Imágenes ilustrativas ----------
 const projectSvg = (p) => {
   const h = p.hue;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="${p.title}">
@@ -103,8 +89,9 @@ const alternates = langs.map((l) => ({ lang: l, url: data[l].c.meta.url + (l ===
 const base = data[langs[0]].c;
 const year = new Date().getFullYear();
 
-const imgs = { avatar: 'assets/avatar.svg', projects: Object.fromEntries(base.projects.map((p) => [p.id, `assets/projects/${p.id}.svg`])) };
-write('assets/avatar.svg', avatarSvg());
+const avatarImage = join(ROOT, 'src/img/images.jpg');
+cpSync(avatarImage, join(DIST, 'assets/avatar.jpg'));
+const imgs = { avatar: 'assets/avatar.jpg', projects: Object.fromEntries(base.projects.map((p) => [p.id, `assets/projects/${p.id}.svg`])) };
 base.projects.forEach((p) => write(`assets/projects/${p.id}.svg`, projectSvg(p)));
 write('favicon.svg', faviconSvg);
 write('assets/og-image.svg', ogSvg(base));

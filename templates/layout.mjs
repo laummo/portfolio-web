@@ -14,7 +14,7 @@ export function jsonLd(c) {
     familyName: p.familyName,
     jobTitle: p.role,
     url: c.meta.url,
-    image: new URL('assets/avatar.svg', c.meta.url).href,
+    image: new URL('assets/avatar.jpg', c.meta.url).href,
     email: `mailto:${p.contact.email}`,
     address: { '@type': 'PostalAddress', addressLocality: p.location.city, addressCountry: p.location.country },
     worksFor: { '@type': 'Organization', name: cur.company },
