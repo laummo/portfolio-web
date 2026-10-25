@@ -1,0 +1,62 @@
+{
+  "skipLink": "Saltar al contenido",
+  "home": "inicio",
+  "present": "Actualidad",
+  "nav": [
+    { "id": "sobre-mi", "label": "Sobre mí" },
+    { "id": "experiencia", "label": "Experiencia" },
+    { "id": "proyectos", "label": "Proyectos" },
+    { "id": "habilidades", "label": "Habilidades" },
+    { "id": "formacion", "label": "Formación" },
+    { "id": "contacto", "label": "Contacto" }
+  ],
+  "navLabel": "Principal",
+  "menuOpen": "Abrir menú",
+  "menuClose": "Cerrar menú",
+  "themeToDark": "Activar modo oscuro",
+  "themeToLight": "Activar modo claro",
+  "downloadCv": "Descargar CV",
+  "contactCta": "Contactar",
+  "sections": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos destacados",
+    "skills": "Habilidades",
+    "education": "Formación y certificaciones",
+    "contact": "Hablemos"
+  },
+  "educationTitle": "Formación",
+  "certTitle": "Certificaciones",
+  "languagesTitle": "Idiomas",
+  "primary": "Principal",
+  "demo": "Demo",
+  "code": "Código",
+  "newTab": "(se abre en una pestaña nueva)",
+  "verify": "Verificar",
+  "contactIntro": "¿Tienes una oferta, un proyecto o solo quieres charlar sobre accesibilidad y rendimiento? Escríbeme y te respondo en 48 horas.",
+  "copy": "Copiar",
+  "copied": "Email copiado",
+  "form": {
+    "note": "Los campos marcados con * son obligatorios.",
+    "name": "Nombre",
+    "email": "Email",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "sending": "Enviando…",
+    "success": "¡Gracias! Te respondo en 48 horas.",
+    "failure": "No se pudo enviar. Escríbeme directamente a",
+    "summary": "Revisa los campos marcados:",
+    "errors": {
+      "valueMissing": "Este campo es obligatorio.",
+      "typeMismatch": "Introduce un email válido, por ejemplo nombre@dominio.com.",
+      "tooShort": "El mensaje debe tener al menos 20 caracteres."
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "built": "Hecho a mano con HTML, CSS y JS.",
+    "top": "Volver arriba"
+  },
+  "printLabel": "Imprimir / guardar PDF"
+}

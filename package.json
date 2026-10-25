@@ -1,0 +1,13 @@
+{
+  "name": "cv-laura-martin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CV web de una sola página generado desde JSON (sin dependencias)",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && node scripts/serve.mjs",
+    "pdf": "node scripts/pdf.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

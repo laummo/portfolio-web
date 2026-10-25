@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "lang": "es",
+    "locale": "es_ES",
+    "title": "Laura Martín — Senior Full-Stack Developer",
+    "description": "Senior Full-Stack Developer con 8 años creando productos web rápidos y accesibles con TypeScript, React, Node.js y AWS. Madrid · remoto.",
+    "url": "https://lauramartin.dev/",
+    "ogImage": "assets/og-image.svg"
+  },
+  "person": {
+    "name": "Laura Martín",
+    "givenName": "Laura",
+    "familyName": "Martín",
+    "role": "Senior Full-Stack Developer",
+    "tagline": "Construyo productos web rápidos, accesibles y mantenibles — del modelo de datos al último píxel.",
+    "location": { "city": "Madrid", "country": "ES", "mode": "Remoto o híbrido" },
+    "avatar": { "alt": "Ilustración de retrato de Laura Martín con las iniciales LM", "width": 800, "height": 1000 },
+    "cv": "assets/cv-laura-martin-es.pdf",
+    "contact": {
+      "email": "laura.martin@ejemplo.dev",
+      "linkedin": "https://www.linkedin.com/in/lauramartin-dev",
+      "github": "https://github.com/lauramartin-dev"
+    }
+  },
+  "about": {
+    "body": "Llevo 8 años diseñando y construyendo aplicaciones web de extremo a extremo: desde el modelo de datos en PostgreSQL hasta interfaces accesibles en React. Me gusta liderar equipos pequeños, medir antes de optimizar y dejar el código más claro de lo que lo encontré. Últimamente trabajo en pagos y fintech, donde la fiabilidad y la accesibilidad no son opcionales.",
+    "stats": [
+      { "value": "8+", "label": "años de experiencia" },
+      { "value": "40+", "label": "proyectos en producción" },
+      { "value": "1,2 M", "label": "usuarios mensuales en el último producto" }
+    ]
+  },
+  "experience": [
+    {
+      "id": "fintia", "company": "Fintia", "url": "https://fintia.example",
+      "role": "Tech Lead Full-Stack", "location": "Madrid · Híbrido",
+      "start": "2022-03", "end": null,
+      "achievements": [
+        "Reduje el p95 de la API de pagos de 820 ms a 190 ms rediseñando consultas y caché en Redis.",
+        "Lideré un equipo de 6 personas; pasamos de desplegar una vez por semana a 14 veces al día con CI/CD trunk-based.",
+        "Llevé la accesibilidad del producto de 62 a 98 en Lighthouse y a conformidad WCAG 2.1 AA."
+      ],
+      "tech": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Redis", "AWS"]
+    },
+    {
+      "id": "ondaria", "company": "Ondaria", "url": "https://ondaria.example",
+      "role": "Senior Full-Stack Developer", "location": "Madrid · Remoto",
+      "start": "2019-06", "end": "2022-02",
+      "achievements": [
+        "Migré un monolito PHP a servicios Node.js sin downtime, recortando el coste de infraestructura un 35 %.",
+        "Diseñé un sistema de diseño usado por 5 equipos que redujo el tiempo de maquetación de pantallas un 40 %.",
+        "Mentoricé a 4 desarrolladores junior, 3 de ellos promocionados en 18 meses."
+      ],
+      "tech": ["React", "Node.js", "GraphQL", "MongoDB", "Docker"]
+    },
+    {
+      "id": "kubo", "company": "Kubo Labs", "url": "https://kubolabs.example",
+      "role": "Desarrolladora Full-Stack", "location": "Barcelona",
+      "start": "2017-01", "end": "2019-05",
+      "achievements": [
+        "Construí desde cero una plataforma de reservas con 120 000 usuarios registrados en su primer año.",
+        "Reduje el tiempo de carga móvil de 6,1 s a 2,3 s aplicando code splitting y optimización de imágenes.",
+        "Aumenté la cobertura de tests del 12 % al 78 % introduciendo TDD en el equipo."
+      ],
+      "tech": ["Vue", "Node.js", "PostgreSQL", "Jest"]
+    },
+    {
+      "id": "trama", "company": "Agencia Trama", "url": "https://trama.example",
+      "role": "Desarrolladora Front-end", "location": "Madrid",
+      "start": "2016-02", "end": "2016-12",
+      "achievements": [
+        "Entregué 12 sitios corporativos responsive en 10 meses con un tiempo medio de entrega de 3 semanas.",
+        "Automaticé el build con Gulp y reduje un 50 % los errores de despliegue manual."
+      ],
+      "tech": ["HTML", "Sass", "JavaScript", "WordPress"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "ledgerly", "featured": true, "title": "Ledgerly", "hue": 140,
+      "summary": "Panel de conciliación bancaria en tiempo real para pymes; procesa 3 M de movimientos al mes.",
+      "alt": "Mockup del panel de Ledgerly con gráfico de flujo de caja y lista de movimientos",
+      "tech": ["React", "tRPC", "PostgreSQL", "AWS Lambda"],
+      "links": { "demo": "https://ledgerly.example", "code": "https://github.com/lauramartin-dev/ledgerly" }
+    },
+    {
+      "id": "atlas", "title": "Atlas a11y", "hue": 215,
+      "summary": "Auditor de accesibilidad por línea de comandos de código abierto, con 1,8 k estrellas en GitHub.",
+      "alt": "Mockup de una terminal mostrando el informe de Atlas a11y",
+      "tech": ["Node.js", "TypeScript", "axe-core"],
+      "links": { "demo": "https://atlas-a11y.example", "code": "https://github.com/lauramartin-dev/atlas-a11y" }
+    },
+    {
+      "id": "rutas", "title": "Rutas Verdes", "hue": 95,
+      "summary": "PWA de movilidad sostenible offline-first usada por 25 000 personas en 3 ciudades.",
+      "alt": "Mockup de la app Rutas Verdes con un mapa y una ruta en bicicleta",
+      "tech": ["Svelte", "Workbox", "Go"],
+      "links": { "demo": "https://rutasverdes.example", "code": "https://github.com/lauramartin-dev/rutas-verdes" }
+    },
+    {
+      "id": "pulse", "title": "Pulse", "hue": 30,
+      "summary": "Librería de design tokens multimarca que alimenta 4 productos desde una sola fuente de verdad.",
+      "alt": "Mockup de una paleta de tokens de color de Pulse en varias marcas",
+      "tech": ["Style Dictionary", "CSS", "Storybook"],
+      "links": { "demo": "https://pulse-tokens.example", "code": "https://github.com/lauramartin-dev/pulse" }
+    }
+  ],
+  "skills": [
+    { "category": "Front-end", "items": [{ "name": "TypeScript", "primary": true }, { "name": "React", "primary": true }, { "name": "Next.js" }, { "name": "Astro" }, { "name": "CSS moderno", "primary": true }, { "name": "Web Components" }] },
+    { "category": "Back-end", "items": [{ "name": "Node.js", "primary": true }, { "name": "Go" }, { "name": "PostgreSQL", "primary": true }, { "name": "Redis" }, { "name": "GraphQL" }] },
+    { "category": "Cloud y DevOps", "items": [{ "name": "AWS", "primary": true }, { "name": "Docker" }, { "name": "Terraform" }, { "name": "GitHub Actions" }] },
+    { "category": "Prácticas", "items": [{ "name": "Accesibilidad (WCAG)", "primary": true }, { "name": "TDD" }, { "name": "Observabilidad" }, { "name": "Mentoring" }] }
+  ],
+  "languages": [
+    { "name": "Español", "level": "Nativo" },
+    { "name": "Inglés", "level": "C1" },
+    { "name": "Francés", "level": "B1" }
+  ],
+  "education": [
+    { "title": "Grado en Ingeniería Informática", "institution": "Universidad Politécnica de Madrid", "start": "2012", "end": "2016" },
+    { "title": "Máster en Ingeniería Web", "institution": "Universidad de Oviedo", "start": "2016", "end": "2017" }
+  ],
+  "certifications": [
+    { "title": "AWS Certified Solutions Architect – Associate", "issuer": "Amazon Web Services", "date": "2023-05", "url": "https://example.com/verify/aws" },
+    { "title": "Certified Kubernetes Application Developer (CKAD)", "issuer": "CNCF", "date": "2022-09", "url": "https://example.com/verify/ckad" },
+    { "title": "CPACC", "issuer": "IAAP", "date": "2021-11", "url": "https://example.com/verify/cpacc" }
+  ],
+  "contactForm": {
+    "endpoint": "",
+    "subjects": ["Oferta de empleo", "Proyecto freelance", "Charla o colaboración", "Otro"]
+  }
+}

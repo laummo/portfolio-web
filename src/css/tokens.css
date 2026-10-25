@@ -1,0 +1,38 @@
+@font-face{font-family:"Fraunces";src:url("fonts/Fraunces-latin.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url("fonts/Inter-latin.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Fraunces Fallback";src:local("Georgia");size-adjust:112%;ascent-override:92%;descent-override:24%;line-gap-override:0%}
+@font-face{font-family:"Inter Fallback";src:local("Arial");size-adjust:107%;ascent-override:90%;descent-override:22%;line-gap-override:0%}
+
+:root{
+  color-scheme:light dark;
+  --bg:#FAF9F6;--surface:#FFFFFF;--surface-2:#F2F0EB;
+  --text:#1C1C1E;--text-muted:#5E5A55;
+  --border:#E4E1DA;--border-strong:#8A857D;
+  --accent:#4F6F52;--accent-hover:#3E5A41;--accent-soft:#E6EDE4;--on-accent:#FFFFFF;
+  --focus:#2B4C7E;--danger:#A1321F;
+  --shadow-1:0 1px 2px rgb(28 28 30/.06);
+  --shadow-2:0 4px 16px -4px rgb(28 28 30/.10);
+  --shadow-3:0 12px 32px -8px rgb(28 28 30/.16);
+
+  --font-display:"Fraunces","Fraunces Fallback",Georgia,serif;
+  --font-body:"Inter","Inter Fallback",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --fs-xs:.8rem;--fs-sm:.875rem;
+  --fs-base:clamp(1rem,.96rem + .2vw,1.0625rem);
+  --fs-md:1.25rem;
+  --fs-lg:clamp(1.25rem,1.1rem + .6vw,1.563rem);
+  --fs-xl:clamp(1.563rem,1.3rem + 1vw,1.953rem);
+  --fs-2xl:clamp(1.953rem,1.5rem + 1.8vw,2.441rem);
+  --fs-3xl:clamp(2.441rem,1.6rem + 3.5vw,3.815rem);
+
+  --space-1:.25rem;--space-2:.5rem;--space-3:.75rem;--space-4:1rem;--space-5:1.5rem;
+  --space-6:2rem;--space-7:3rem;--space-8:4rem;--space-9:6rem;--space-10:8rem;
+  --section-pad:clamp(var(--space-8),8vw,var(--space-10));
+  --container:75rem;--gutter:clamp(1rem,4vw,2rem);--prose:68ch;--header-h:4rem;
+
+  --radius-sm:4px;--radius-md:8px;--radius-lg:16px;--radius-full:999px;
+  --dur-fast:150ms;--dur-base:200ms;--dur-slow:250ms;--dur-reveal:600ms;
+  --ease-out:cubic-bezier(.22,1,.36,1);--ease-in-out:cubic-bezier(.65,0,.35,1);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){@@DARK@@}}
+:root[data-theme="dark"]{@@DARK@@}
+@media (prefers-reduced-motion:reduce){:root{--dur-fast:.01ms;--dur-base:.01ms;--dur-slow:.01ms;--dur-reveal:.01ms}}

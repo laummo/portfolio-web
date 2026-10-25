@@ -1,0 +1,48 @@
+@page{size:A4;margin:12mm 14mm}
+@media print{
+  :root,:root[data-theme]{--bg:#fff;--surface:#fff;--surface-2:#fff;--text:#000;--text-muted:#333;--border:#bbb;--accent:#2f4a32;--shadow-1:none;--shadow-2:none;--shadow-3:none}
+  html{font-size:9pt}
+  .card .chips,.site-footer{display:none!important}
+  body{background:#fff;color:#000;line-height:1.4}
+  .site-header,.skip-link,.progress,#contacto .form,.contact-cta,.btn-row,.theme-toggle,.menu-btn,.card-media,.hero-photo,.site-footer .no-print,.copy-btn,.print-hide,.card-links{display:none!important}
+  .section,.hero{padding-block:4mm;border-top:1px solid #bbb;min-height:0}
+  .hero{padding-top:0;border-top:0;display:block}
+  .hero h1{font-size:22pt;margin:0 0 2mm}
+  .tagline{font-size:11pt;margin-bottom:2mm}
+  .section-title{font-size:14pt;margin-bottom:3mm}
+  .section-title .num{display:none}
+  .split,.skill-groups,.edu-cols{display:block}
+  .skill-groups,.edu-cols{display:grid;grid-template-columns:1fr 1fr;gap:2mm 6mm}
+  .skill-groups h3,.edu-cols h3{margin-bottom:1mm}
+  .bullets{gap:1mm;margin-bottom:2mm}
+  .job h3{font-size:11pt;margin:0}
+  .job-co{margin-bottom:1mm}
+  .job-main{padding:0}
+  .entries{gap:1.5mm}
+  .langs{margin-top:2mm}
+  .card h3{font-size:11pt}
+  .card-body{gap:1mm}
+  .contact-links{display:flex;gap:6mm;flex-wrap:wrap}
+  address{font-style:normal}
+  .split-head{position:static!important}
+  .stats{grid-template-columns:repeat(3,1fr);margin-top:3mm}
+  .stat dd{font-size:14pt}
+  .job{margin-bottom:4mm}
+  .job h3{break-after:avoid}
+  .timeline{gap:2mm;display:block}
+  .cards{display:block}
+  .card{border:0;box-shadow:none;break-inside:avoid;margin-bottom:2mm}
+  .card-body{padding:0}
+  .chip{background:#fff;border:1px solid #bbb;padding:0 .4rem;font-size:8.5pt}
+  .skill-groups>div{margin-bottom:3mm}
+  .js [data-reveal]{opacity:1!important;transform:none!important}
+  .container{max-width:none;padding:0}
+  .contact-links a[href^="mailto"]::after,.contact-links a[href^="http"]::after,.job-co a::after{content:" (" attr(href) ")";font-size:8.5pt}
+  .contact-links a[href^="mailto"]::after{content:""}
+  .entries a::after{content:" (" attr(href) ")";font-size:8pt}
+  a{color:#000;text-decoration:none}
+  .contact-grid{display:block}
+  .contact-info p{display:none}
+  .contact-links{margin:0}
+  .site-footer{border:0;padding:3mm 0 0}
+}
