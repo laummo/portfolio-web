@@ -2,28 +2,28 @@
   "meta": {
     "lang": "es",
     "locale": "es_ES",
-    "title": "Laura Martín — Senior Full-Stack Developer",
+    "title": "Laura Moreno — Estudiante de Ingeniería Informática",
     "description": "Senior Full-Stack Developer con 8 años creando productos web rápidos y accesibles con TypeScript, React, Node.js y AWS. Madrid · remoto.",
-    "url": "https://lauramartin.dev/",
+    "url": "https://lauramoreno.dev/",
     "ogImage": "assets/og-image.svg"
   },
   "person": {
-    "name": "Laura Martín",
+    "name": "Laura Moreno",
     "givenName": "Laura",
-    "familyName": "Martín",
-    "role": "Senior Full-Stack Developer",
+    "familyName": "Moreno",
+    "role": "Estudiante de Ingeniería Informática",
     "tagline": "Construyo productos web rápidos, accesibles y mantenibles — del modelo de datos al último píxel.",
-    "location": { "city": "Madrid", "country": "ES", "mode": "Remoto o híbrido" },
-    "avatar": { "alt": "Ilustración de retrato de Laura Martín con las iniciales LM", "width": 800, "height": 1000 },
+    "location": { "city": "Barcelona", "country": "ES", "mode": "Remoto o híbrido" },
+    "avatar": { "alt": "Ilustración de retrato de Laura Moreno con las iniciales LM", "width": 800, "height": 1000 },
     "cv": "assets/cv-laura-martin-es.pdf",
     "contact": {
-      "email": "laura.martin@ejemplo.dev",
-      "linkedin": "https://www.linkedin.com/in/lauramartin-dev",
-      "github": "https://github.com/lauramartin-dev"
+      "email": "moval.laura@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/laura-mova",
+      "github": "https://github.com/laummo"
     }
   },
   "about": {
-    "body": "Llevo 8 años diseñando y construyendo aplicaciones web de extremo a extremo: desde el modelo de datos en PostgreSQL hasta interfaces accesibles en React. Me gusta liderar equipos pequeños, medir antes de optimizar y dejar el código más claro de lo que lo encontré. Últimamente trabajo en pagos y fintech, donde la fiabilidad y la accesibilidad no son opcionales.",
+    "body": "Soy una estudiante de cuarto año de Ingeniería Informática con gran pasión por el desarrollo de aplicaciones web, la visión por computador y el mundo tecnológico. Me gusta el trabajo bien hecho, el código limpio y los rompecabezas lógicos.",
     "stats": [
       { "value": "8+", "label": "años de experiencia" },
       { "value": "40+", "label": "proyectos en producción" },
@@ -32,47 +32,34 @@
   },
   "experience": [
     {
-      "id": "fintia", "company": "Fintia", "url": "https://fintia.example",
-      "role": "Tech Lead Full-Stack", "location": "Madrid · Híbrido",
-      "start": "2022-03", "end": null,
+      "id": "occident", "company": "Occident", "url": "https://occident.com",
+      "role": "Becaria de desarrollo y análisis de aplicaciones", "location": "Barcelona",
+      "start": "2026-10", "end": "Actualidad",
       "achievements": [
-        "Reduje el p95 de la API de pagos de 820 ms a 190 ms rediseñando consultas y caché en Redis.",
-        "Lideré un equipo de 6 personas; pasamos de desplegar una vez por semana a 14 veces al día con CI/CD trunk-based.",
-        "Llevé la accesibilidad del producto de 62 a 98 en Lighthouse y a conformidad WCAG 2.1 AA."
+        "Soporte de proyectos dentro de un entorno Agile (Scrum) durante todo el ciclo de desarrollo de software, incluyendo reunión de requisitos, analisis, diseño, desarrollo y integración. ",
+        "Colaboro con equipos multifuncionales y herramientas de gestion de proyectos para desarrollar aplicaciones de calidad."
       ],
-      "tech": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Redis", "AWS"]
+      "tech": ["React", "Microsoft .NET", "COBOL", "SQL", "C#", "Git"]
     },
     {
-      "id": "ondaria", "company": "Ondaria", "url": "https://ondaria.example",
-      "role": "Senior Full-Stack Developer", "location": "Madrid · Remoto",
-      "start": "2019-06", "end": "2022-02",
+      "id": "upc", "company": "Universitat Politècnica de Catalunya", "url": "https://www.fib.upc.edu",
+      "role": "Becaria de soporte IT", "location": "Barcelona",
+      "start": "2025-09", "end": "2026-07",
       "achievements": [
-        "Migré un monolito PHP a servicios Node.js sin downtime, recortando el coste de infraestructura un 35 %.",
-        "Diseñé un sistema de diseño usado por 5 equipos que redujo el tiempo de maquetación de pantallas un 40 %.",
-        "Mentoricé a 4 desarrolladores junior, 3 de ellos promocionados en 18 meses."
+        "Durante mi tiempo como becaria en la facultad, di servicio de soporte IT a los laboratorios.",
+        "Gestión de redes y servidores. "
       ],
-      "tech": ["React", "Node.js", "GraphQL", "MongoDB", "Docker"]
+      "tech": ["Vim", "C", "Docker", "CI/CD", "Bash"]
     },
     {
-      "id": "kubo", "company": "Kubo Labs", "url": "https://kubolabs.example",
-      "role": "Desarrolladora Full-Stack", "location": "Barcelona",
-      "start": "2017-01", "end": "2019-05",
+      "id": "hp", "company": "HP", "url": "https://hp.com",
+      "role": "Especialista en ventas", "location": "Barcelona",
+      "start": "2024-08", "end": "2025-09",
       "achievements": [
-        "Construí desde cero una plataforma de reservas con 120 000 usuarios registrados en su primer año.",
-        "Reduje el tiempo de carga móvil de 6,1 s a 2,3 s aplicando code splitting y optimización de imágenes.",
-        "Aumenté la cobertura de tests del 12 % al 78 % introduciendo TDD en el equipo."
+        "Especializada soporte técnico a hardware y software.",
+        "Demostraciones de producto directamente hacia los clientes. "
       ],
-      "tech": ["Vue", "Node.js", "PostgreSQL", "Jest"]
-    },
-    {
-      "id": "trama", "company": "Agencia Trama", "url": "https://trama.example",
-      "role": "Desarrolladora Front-end", "location": "Madrid",
-      "start": "2016-02", "end": "2016-12",
-      "achievements": [
-        "Entregué 12 sitios corporativos responsive en 10 meses con un tiempo medio de entrega de 3 semanas.",
-        "Automaticé el build con Gulp y reduje un 50 % los errores de despliegue manual."
-      ],
-      "tech": ["HTML", "Sass", "JavaScript", "WordPress"]
+      "tech": ["Equipos Informáticos", "Ventas", "Atención al cliente"]
     }
   ],
   "projects": [
@@ -117,8 +104,7 @@
     { "name": "Francés", "level": "B1" }
   ],
   "education": [
-    { "title": "Grado en Ingeniería Informática", "institution": "Universidad Politécnica de Madrid", "start": "2012", "end": "2016" },
-    { "title": "Máster en Ingeniería Web", "institution": "Universidad de Oviedo", "start": "2016", "end": "2017" }
+    { "title": "Grado en Ingeniería Informática, mención en computación", "institution": "Universidad Politécnica de Catalunya", "start": "2023", "end": "2027" }
   ],
   "certifications": [
     { "title": "AWS Certified Solutions Architect – Associate", "issuer": "Amazon Web Services", "date": "2023-05", "url": "https://example.com/verify/aws" },
